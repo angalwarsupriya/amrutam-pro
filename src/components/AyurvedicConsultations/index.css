@@ -1,0 +1,334 @@
+.consultation-bg-con{
+    min-height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(#faeed0,#f3e7c2);
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.consultation-hea{
+    font-size: 37px;
+    font-weight: bold;
+    color:#3A643B;
+    font-size: DINpro-Bold;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.consultation-cards-con{
+    width: 88%;
+    height: 78vh;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.consultation-card1{
+    height:250px;
+    width: 47%;
+    border-radius: 10px;
+    padding: 3%;
+    background-color: white;
+    border-top: 4px solid #3A643B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.consultation-card-hindi-hea{
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 45px;
+    color: #3A643B;
+ 
+}
+
+.consultaion-card1-p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #656363;
+    text-align: center;
+}
+
+.consultation-card-hea{
+    font-size: 26px;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 45px;
+    color: #3A643B;
+ 
+}
+
+
+
+/**************** card s****************/
+
+
+.consultation-content-card{
+    height: 250px;
+    width: 25%;
+    border-radius: 20px;
+    background-color: white;
+    border-top: 4px solid #3A643B;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.consultation-img-card{
+    height: 260px;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.consultation-img-card-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+/***************************************/
+
+
+
+@media screen and (min-width:900px) and (max-width:1200px){
+    .consultation-bg-con{
+        height: 100vh;
+    }
+    .consultation-cards-con{
+        width: 90%;
+    }
+    .consultation-card-hindi-hea{
+        font-size: 25px; 
+    }
+    .consultaion-card1-p{
+        font-size: 14px;
+    }
+    .consultation-card1{
+        width:46%;
+        height: 43%;
+    }
+
+    .consultation-img-card{
+        height: 40%;
+        width: 25%;      
+    }
+    .consultation-content-card{
+        height:43%;
+        width: 25%;
+        padding: 2%;
+    }
+    .consultation-img-card{
+        height: 44%;
+    }
+    .consultation-card-hea{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .consultaion-card1-p{
+        font-size: 13px;
+    }
+  
+}
+
+
+@media screen and (min-width:768px) and (max-width:900px){
+.consultation-bg-con{
+    height: 120vh;
+}
+    .consultation-card-hindi-hea{
+        font-size: 25px; 
+        line-height: 35px;
+    }
+    .consultaion-card1-p{
+        font-size: 13px;
+    }
+    .consultation-card1{
+        width: 98%;
+        height: 230px;
+    }
+    
+    .consultation-cards-con{
+        width: 90%;
+        height: 100%;
+ 
+    }
+
+    .consultaion-card1-p{
+        font-size: 14px;
+    }  
+
+    .consultation-img-card{
+        height:240px;
+        width: 31%;      
+    }
+    .consultation-content-card{
+        height: 230px;
+        width: 31%;
+
+    }
+    .consultation-card-hea{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .consultaion-card1-p{
+        font-size: 13px;
+    }
+  
+}
+
+
+
+@media screen and (max-width:767px){
+    .consultation-bg-con{
+        min-height:180vh;
+    }
+   
+    .consultation-card1{
+        width: 100%;
+        height: 150px;
+        padding: 3%;
+        margin-bottom: 20px;
+    }
+    .consultation-hea{
+        text-align: center;
+        font-size: 26px;
+    }
+    .consultation-card-hindi-hea{
+        font-size: 17px; 
+        line-height: 30px;
+    }
+    .consultaion-card1-p{
+        font-size: 10px;
+    }
+    .consultation-card-hea{
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .consultation-img-card{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    .consultation-content-card{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+}
+
+
+
+@media screen and (min-width:365px) and (max-width:500px){
+    .consultation-bg-con{
+        min-height:250vh;
+    }
+  
+    .consultation-hea{
+        text-align: center;
+        font-size: 24px;
+    }
+    .consultation-card-hindi-hea{
+        font-size: 22px; 
+        line-height: 30px;
+    }
+    .consultation-card1{
+        height: 220px;
+    }
+    .consultaion-card1-p{
+        font-size: 15px;
+    }
+    .consultation-card-hea{
+        font-size: 28px;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+    .consultation-img-card{
+        width: 100%;
+        height: 220px;
+    }
+    .consultation-content-card{
+        height: 220px;
+    }
+}
+
+
+@media screen and (min-width:500px) and (max-width:768px){
+    .consultation-bg-con{
+        min-height:100vh;
+    }
+  
+    .consultation-card1{
+        width: 60%;
+        height: 200px;
+        order: 0;
+    }
+    
+    .consultation-cards-con{
+        width: 95%;
+        height: 100%;
+    }
+
+    .consultation-img-card{
+        height:210px;
+        width:40%;      
+    }
+    .consultation-content-card{
+        height: 200px;
+        width: 60%;
+   } 
+   .consultation-card-hea{
+       text-align: center;
+       font-size: 23px;
+       line-height: 28px;
+   }
+   .consultation-card-hindi-hea{
+      font-size: 20px; 
+      line-height: 34px;
+   } 
+   .consultaion-card1-p{
+      font-size: 13px;
+    }
+
+.card-2{
+    order:1 ;
+}
+.card-3{
+ order:3;
+ width: 40%;
+
+ }
+ .card-4{
+    order:5 ;
+    width: 48%;
+ }
+ .card-5{
+    order:2 ;
+    width: 30%;
+ }
+ .card-6{
+    order:6 ;
+    width: 48%;
+ }
+ .card-7{
+    order: 4;
+    width:30%;
+ }
+
+}
+
+
+

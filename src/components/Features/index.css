@@ -1,0 +1,41 @@
+.features-bg-con{
+    height: 15vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.feature-con{
+    height: 100%;
+    width: 20%;
+}
+.feature-img{
+    height: 60%;
+    width: 25%;
+}
+.feature-p{
+    font-size: 14px;
+    margin-top: 8px;
+    color: #3A643B;
+    font-weight: BOLD;
+}
+
+
+@media screen and (max-width:768px){
+    .features-bg-con{
+        min-height: 40vh;
+        flex-direction: column;
+    }
+    .feature-con{
+        height: 10vh;
+        width:100%;
+        padding-left: 2%;
+    }
+    .feature-img{
+        width: 15%;
+        height: 80%;
+    }
+}
