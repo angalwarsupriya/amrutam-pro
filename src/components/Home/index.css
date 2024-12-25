@@ -22,13 +22,13 @@ background-image:linear-gradient(to right, rgb(46, 28, 28),rgb(165, 16, 16))
 .home-img-con{
     height: 100%;
     width: 55%;
-    background-image: url('images/Rectangle 3464760.png');
+    background-image: url('/images/Rectangle 3464760.png');
     background-size: cover;
 }
 
 @media screen and (max-width:768px){
     .home-bg-con{
-        background-image: url('images/Rectangle 3464762.png');
+        background-image: url('/images/Rectangle 3464762.png');
         background-size: cover;
     }
     .home-img-con{
