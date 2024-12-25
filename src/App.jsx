@@ -9,10 +9,10 @@ import MagicWithUs from './components/MagicWithUs';
 import AyurvedicConsultations from './components/AyurvedicConsultations';
 import BookConsultation from './components/BookConsultation';
 import AyurvedicApproach from './components/AyurvedicApproach';
-import Reviews from './components/reviews';
 import AyurvedicExperts from './components/AyurvedicExperts';
 import AmrutamApp from './components/AmrutamApp';
 import Footer from './components/Footer';
+import Reviews from './components/Reviews/index.jsx';
 
 function App(){
   return (
