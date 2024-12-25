@@ -4,6 +4,7 @@ import './index.css'
 import SimpleSlider from './SimpleSlider'
 
 function AyurvedicApproach() {
+
   return (
     <section id='ayurvedicApproach' className='ayurvedic-approach-bg-con'>
 

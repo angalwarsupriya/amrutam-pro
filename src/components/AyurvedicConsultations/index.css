@@ -1,5 +1,5 @@
 .consultation-bg-con{
-    min-height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-image: linear-gradient(#faeed0,#f3e7c2);
     display: flex;
@@ -295,11 +295,11 @@
    } 
    .consultation-card-hea{
        text-align: center;
-       font-size: 23px;
+       font-size: 26px;
        line-height: 28px;
    }
    .consultation-card-hindi-hea{
-      font-size: 20px; 
+      font-size: 28px; 
       line-height: 34px;
    } 
    .consultaion-card1-p{
@@ -335,19 +335,21 @@
 
 @media screen and (max-width:567px){
     .consultation-bg-con{
-        height:250vh;  
+        height:220vh;  
     }
     .consultation-card1{
-        height: 200px;
+        height: 180px;
         order: 0;
         width: 94%;
 
     }
     .consultation-img-card{
-        width:94%;      
+        width:95%;     
+        height: 160px; 
     }
     .consultation-content-card{
         width: 94%;
+        height:160px;
     }
    
     

@@ -57,6 +57,28 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.magic-card4{
+
+    height: 34%;
+    margin-top: 9px;
+}
+.magic-card5{   
+    height: 34%;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.magic-card2{
+    height: 33%;
+    margin-right: 30px;
+}
+.magic-card-des-con{
+    width:100%;
+}
+.magic-card6{
+    
+    height: 34%;
+    margin-top:9px;
+}
 
 /********** magic card **********/
 
@@ -70,26 +92,21 @@
     font-size: 14px;
 }
 .magic-card-logo{
-    height: 70px;
-    width: 70px;
+    height: 80%;
 }
 .magic-left-card{
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-right: 20px;
+    margin-right: 10px;
+    width:100%;
 }
 .magic-right-card{
-    margin-left: 20px;
-    
+    margin-left: 10px;
 }
-.magic-card2{
-    margin-right: 9%;
 
-}
-.magic-card5{
-    margin-left: 8%;
-}
+
+
 
 
 
@@ -174,7 +191,7 @@
     }
     .magic-card-logo{
         height: 60px;
-        width: 60p;
+        width: 50px;
     }
     .magic-with-us-hea{
         font-size: 40px;
@@ -194,10 +211,7 @@
     .magic-card-p{
         font-size: 10px;
     }
-    .magic-card-logo{
-        height: 50px;
-        width: 50p;
-    }
+
     .magic-with-us-hea{
         font-size: 38px;
     }

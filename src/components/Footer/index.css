@@ -1,5 +1,5 @@
 .footer-bg-con{
-    height: 60vh;
+    height: 68vh;
     width: 100vw;
     background-color:rgb(242, 242, 250);
     display: flex;
@@ -72,6 +72,7 @@ input{
     border-bottom-left-radius: 20px;
     background-color: transparent;
     padding-left: 10px;
+    color: black;
 }
 
 @media screen and (max-width:768px){

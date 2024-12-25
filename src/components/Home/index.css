@@ -75,6 +75,7 @@ background-image:linear-gradient(to right, rgb(46, 28, 28),rgb(165, 16, 16))
     border: none;
     outline: none;
     font-size: 12px;
+    cursor: pointer;
 }
 
 
