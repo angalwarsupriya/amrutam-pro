@@ -1,0 +1,125 @@
+.footer-bg-con{
+    height: 60vh;
+    width: 100vw;
+    background-color:rgb(242, 242, 250);
+    display: flex;
+    justify-content: center;
+}
+.footer-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-left-con{
+    height: 100%;
+    width: 50%;
+    padding: 3%;
+}
+.footer-right-con{
+    height: 100%;
+   width: 50%;
+   padding: 3%;
+}
+.footer-hea{
+    font-size: 30px;
+    color:#3A643B;
+    font-weight: 600;
+}
+.footer-hea2{
+    font-size: 20px;
+    color:#3A643B;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.footer-p{
+    font-size: 20px;
+    color:#494949;
+    font-weight: 500;
+}
+.footer-icons-row{
+width: 70%;
+display: flex;
+justify-content: space-between;
+}
+.footer-icon{
+    height: 50px;
+}
+
+.footer-information-p{
+    display: block;
+    color: #494949;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top:5px;
+}
+.search-con{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #3A643B;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+input{
+    height: 50.5px;
+    width: 70%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:768px){
+    .footer-bg-con{
+        min-height: 120vh;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-left-con{
+        width: 90%;
+        height: 45vh;
+    }
+    .footer-right-con{
+        width: 90%;
+        height: 50vh;
+    }
+
+    .footer-hea{
+        font-size: 30px;
+    }
+    .footer-hea2{
+        font-size: 17px;
+        color:#3A643B;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .footer-p{
+        font-size: 17px;
+        color:#494949;
+        font-weight: 500;
+    }
+    .footer-icons-row{
+       width: 60%;
+
+    }
+    .footer-icon{
+        height: 40px;
+    }
+    
+}
+@media screen and (max-width:550px){
+    .footer-icons-row{
+        width: 80%;
+    }
+    .footer-icon{
+        height: 32px;
+        width: 32px;
+    }
+}

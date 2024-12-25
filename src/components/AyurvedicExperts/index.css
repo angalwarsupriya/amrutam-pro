@@ -1,0 +1,379 @@
+.ayurvedic-experts-bg-con{
+    width: 100vw;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.arrow-icon{
+    font-size: 40px;
+}
+.ayurvedic-experts-hea{
+    font-size: 40px;
+    color:#3A643B;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: underline  solid rgb(153, 153, 153);
+}
+.ayurvedic-experts-cards-con{
+    height: 70%;
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.ayurvedic-experts-card-container{
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+    padding: 10px;
+}
+.ayurvedic-experts-card{
+    height: 100%;
+    width: 90%;
+    background-color: #FFF7E2;
+    border-radius: 30px;
+}
+.ayurvedic-experts-card-bottom-green-con{
+    height: 14%;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #3A643B;
+}
+.ayurvedic-experts-card-top-con{
+    height: 86%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.ayurvedic-experts-img{
+    height: 120px;
+    width: 120px;
+    position: relative;
+}
+.rating-con{
+    height: 25px;
+    width: 55px;
+    background-color: black;
+    position: absolute;
+    top: 35%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.find-more-btn{
+    background-color: #e0e0dd;
+    border-radius: 10px;
+    color: rgb(78, 77, 77);
+    border: 2px solid rgb(128, 128, 128);
+
+}
+
+.rating-star{
+    font-size: 12px;
+    color:#efe336;
+}
+
+.rating-p{
+    font-size: 11px;
+    color:#e0e0da;
+    margin-top: 15px;
+    text-align: center;
+}
+.doctor-name{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.doctor-study-p{
+    font-size: 15px;
+    color: grey;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.experties-con{
+    background-color: #dfdfdc;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3A643B;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+}
+.doctor-year-of-experience{
+    font-size: 15px;
+    margin-top: 5px;
+    color: rgb(49, 48, 48);
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1280px){
+    .ayurvedic-experts-card-container{
+        height: 430px;
+        width: 356px;
+        margin: 0px;
+        margin-bottom: 5%;
+    }
+    .ayurvedic-experts-hea{
+        margin-bottom: 10%;
+    }
+    .ayurvedic-experts-cards-con{
+        width: 90%;  
+    }
+    .rating-con{
+        top: 34%;
+    }
+    
+    .doctor-name{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .doctor-study-p{
+        font-size: 12px;
+
+    }
+    .ayurvedic-experts-hea{
+        font-family: 10px;
+        font-size: 30px;
+    }
+
+   
+}
+
+@media screen and (max-width:1000px){
+    .ayurvedic-experts-card-container{
+        height: 430px;
+        width: 316px;
+        margin: 0px;
+        margin-bottom: 10%;
+    }
+    .ayurvedic-experts-hea{
+        margin-bottom: 10%;
+        font-size: 40px;
+    }
+    .ayurvedic-experts-cards-con{
+        width: 90%;  
+    }
+    .rating-con{
+        top: 34%;
+    }
+    
+    .doctor-name{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .doctor-study-p{
+        font-size: 12px;
+
+    }
+    .ayurvedic-experts-hea{
+        font-family: 10px;
+    }
+    .arrow-icon{
+        font-size: 30px;
+        margin: 0px;
+    }
+    .find-more-btn{
+        margin-top: 4%;
+    }
+   
+}
+
+@media screen and (max-width:900px){
+    .ayurvedic-experts-card-container{
+        height: 430px;
+        width: 300px;
+        margin: 0px;
+    }
+    .ayurvedic-experts-hea{
+        margin-bottom: 10%;
+    }
+    .rating-con{
+        top: 34%;
+    }
+    
+    .doctor-name{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .doctor-study-p{
+        font-size: 12px;
+
+    }
+    .ayurvedic-experts-hea{
+        font-family: 10px;
+        font-size: 30px;
+    }
+    .arrow-icon{
+        font-size: 30px;
+        margin: 0px;
+    }
+   
+}
+@media screen and (max-width:800px){
+    .ayurvedic-experts-card-container{
+        height: 430px;
+        width: 270px;
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .ayurvedic-experts-hea{
+        margin-bottom: 10%;
+    }
+    .rating-con{
+        top: 34%;
+    }
+    
+    .doctor-name{
+        font-size: 19px;
+    }
+    .doctor-study-p{
+        font-size: 12px;
+        color: grey;
+    }
+    .ayurvedic-experts-hea{
+        margin-bottom: 30%;
+    }
+    .ayurvedic-experts-hea{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:768px){
+    .ayurvedic-experts-card-container{
+        height: 430px;
+        width: 330px;
+        margin: 10px;
+
+    }
+    .ayurvedic-experts-cards-con{
+        width: 80%;
+    }
+    .ayurvedic-experts-hea{
+        margin-bottom: 10%;
+    }
+    .rating-con{
+        top: 17%;
+    }
+    .arrow-icon{
+        font-size: 20px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:700px){
+
+    .ayurvedic-experts-card-container{
+        height: 60vh;
+        margin-top: 200px;
+        margin-bottom: 10%;
+    }
+
+
+    .ayurvedic-experts-card-container{
+        height: 430px;
+        width: 300px;
+        margin: 5px;
+
+    }
+    .ayurvedic-experts-img{
+        height: 110px;
+        width: 110px;
+    }
+    .rating-con{
+        top: 30%;
+    }
+    
+    .rating-star{
+       font-size: 10px;
+    }
+    
+    .rating-p{
+        font-size: 11px;
+        color:#e0e0da;
+        margin-top: 15px;
+    }
+  
+    .doctor-study-p{
+        font-size: 13px;
+        color: grey;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+    .ayurvedic-experts-hea{
+        margin-bottom: 10%;
+    }
+    .find-more-btn{
+        margin-top: 4%;
+    }
+    
+}
+
+@media screen and (max-width:650px){
+    .ayurvedic-experts-card-container{
+        height:100%;
+        width: 100%;
+        margin: 5px;
+    }
+    .ayurvedic-experts-hea{
+        font-size: 35px;
+        width: 90%;
+    }
+    .ayurvedic-experts-hea{
+        margin-bottom: 15%;
+    }
+    .arrow-icon{
+        display: none;
+    }
+    .find-more-btn{
+        margin-top: 8%;
+    }
+    
+}
+
+@media screen and (max-width:400px){
+   
+    .ayurvedic-experts-img{
+        height: 100px;
+        width: 100px;
+    }
+    .rating-con{
+        top: 34%;
+    }
+    
+    .doctor-name{
+        font-size: 19px;
+    }
+    .doctor-study-p{
+        font-size: 12px;
+        color: grey;
+    }
+    .ayurvedic-experts-hea{
+        margin-bottom: 30%;
+    }
+    .ayurvedic-experts-hea{
+        font-size: 30px;
+    }
+ 
+    
+
+}

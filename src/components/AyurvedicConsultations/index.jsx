@@ -3,7 +3,7 @@ import './index.css'
 
 function AyurvedicConsultations() {   
   return (
-    <div className='consultation-bg-con'>
+    <section id='AyurvedicConsultation' className='consultation-bg-con'>
        <h2 className='consultation-hea'>What sets Ayurvedic consultations apart?</h2>
 
        <div className='consultation-cards-con'>
@@ -59,7 +59,7 @@ function AyurvedicConsultations() {
           </div>
 
        </div>
-    </div>
+    </section>
   )
 }
 

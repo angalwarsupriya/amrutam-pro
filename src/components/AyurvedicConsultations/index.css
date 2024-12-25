@@ -232,9 +232,9 @@
 
 
 
-@media screen and (min-width:365px) and (max-width:500px){
+@media screen and (min-width:355px) and (max-width:500px){
     .consultation-bg-con{
-        min-height:250vh;
+        height:140vh;       
     }
   
     .consultation-hea{
@@ -262,13 +262,16 @@
     }
     .consultation-content-card{
         height: 220px;
+
     }
 }
 
 
-@media screen and (min-width:500px) and (max-width:768px){
+
+@media screen and (min-width:567px) and (max-width:768px){
     .consultation-bg-con{
-        min-height:100vh;
+        min-height:100vh;  
+        height: 120vh;
     }
   
     .consultation-card1{
@@ -330,5 +333,30 @@
 
 }
 
+@media screen and (max-width:567px){
+    .consultation-bg-con{
+        height:250vh;  
+    }
+    .consultation-card1{
+        height: 200px;
+        order: 0;
+        width: 94%;
 
+    }
+    .consultation-img-card{
+        width:94%;      
+    }
+    .consultation-content-card{
+        width: 94%;
+    }
+   
+    
+
+}
+@media screen and (max-width:400px){
+    .consultation-bg-con{
+        height:200vh;  
+    } 
+
+}
 

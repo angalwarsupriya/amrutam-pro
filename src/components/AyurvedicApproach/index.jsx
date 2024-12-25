@@ -5,7 +5,7 @@ import SimpleSlider from './SimpleSlider'
 
 function AyurvedicApproach() {
   return (
-    <div className='ayurvedic-approach-bg-con'>
+    <section id='ayurvedicApproach' className='ayurvedic-approach-bg-con'>
 
         <div className='ayurvedic-approach-content-con'>
             <h2 className='ayurvedic-approach-hea'>Our ayurvedic approach</h2>
@@ -52,7 +52,7 @@ function AyurvedicApproach() {
             <SimpleSlider/>
         </div>
        
-    </div>
+    </section>
   )
 }
 

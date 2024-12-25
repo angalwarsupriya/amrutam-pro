@@ -1,0 +1,135 @@
+
+
+.reviews-bg-con{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: rgba(255, 247, 226, 1);
+}
+.review-slide-card{
+  height: 60vh;
+  width: 20vw;
+  padding: 5%;
+}
+.reviews-hea{
+    font-size: 40px;
+    color:#3A643B;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline  solid rgb(153, 153, 153);
+    font-family: BINPro;
+}
+
+.review-slides-con{
+ width: 80%;
+ height: 80%;
+ margin-top: 5%;
+}
+.reviw-card{
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
+.sider-card-top-con{
+    height: 18%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 7%;
+    background-color: #4e7250;
+
+    .sider-card-top-con-title{
+    color: #414141;
+    font-weight: bold;
+    font-size: 18px;
+    color: #f2dded;
+    }
+}
+.slider-bottom-con{
+    height: 80%;
+    width: 100%;
+    padding: 4%;
+    background-color: rgb(246, 242, 242);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.profile-round{
+    height: 60px;
+    width: 60px;
+    border-radius: 35px;
+    background-color: rgb(65, 64, 64);
+}
+.profile-name{
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #414141;
+  letter-spacing:0.2px;
+}
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4%;
+    
+  
+  .profile-adress{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 130;
+    color:gray;
+    letter-spacing: 1px;
+    font: Nexa Light;  
+  }
+}
+.date-p{
+    font-size: 15px;
+  }
+  .d{
+    width: 80%;
+  }
+
+  .star{
+    font-size: 25px;
+    color: rgb(238, 220, 19);
+  }
+  .stars-row{
+    width: 40%;
+    margin-top: 10%;
+  }
+  .review-title{
+    margin-top: 8%;
+    font-size: 20px;
+  }
+
+  .review-p{
+    margin-top: 4%;
+    font-size: 17px;
+    color: #6c6969;
+  }
+
+  @media screen and (max-width:768px){
+    .reviews-hea{
+      font-size: 30px;
+    }
+    .star{
+      font-size: 18px;
+    }
+  
+    .review-title{
+      font-size: 19px;
+      margin-top: 20%;
+    }
+    .profile-name{
+      font-size: 16px;
+    }
+    .review-p{
+      font-size: 16px;
+    }
+    .date-p{
+      font-size: 12px;
+    }
+  }

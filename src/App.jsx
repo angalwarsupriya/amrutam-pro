@@ -9,6 +9,10 @@ import MagicWithUs from './components/MagicWithUs';
 import AyurvedicConsultations from './components/AyurvedicConsultations';
 import BookConsultation from './components/BookConsultation';
 import AyurvedicApproach from './components/AyurvedicApproach';
+import Reviews from './components/reviews';
+import AyurvedicExperts from './components/AyurvedicExperts';
+import AmrutamApp from './components/AmrutamApp';
+import Footer from './components/Footer';
 
 function App(){
   return (
@@ -20,7 +24,10 @@ function App(){
        <AyurvedicConsultations/>
        <BookConsultation/>
        <AyurvedicApproach/>
-       
+       <Reviews/>
+       <AyurvedicExperts/>
+       <AmrutamApp/>
+       <Footer/>
     </div>
   )
 }

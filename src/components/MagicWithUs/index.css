@@ -1,5 +1,6 @@
 .magic-with-us-bg-con{
     min-height: 100vh;
+    max-height: 200vh;
     width: 100%;
     padding-top: 30px;
     padding-left: 0px;
@@ -62,11 +63,11 @@
 .magic-card-hea{
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 .magic-card-p{
     color: #515151;
-    font-family: 12px;
+    font-size: 14px;
 }
 .magic-card-logo{
     height: 70px;
@@ -80,9 +81,11 @@
 }
 .magic-right-card{
     margin-left: 20px;
+    
 }
 .magic-card2{
-    margin-right: 8%;
+    margin-right: 9%;
+
 }
 .magic-card5{
     margin-left: 8%;
@@ -91,6 +94,9 @@
 
 
 @media screen and (max-width:768px){
+    .magic-with-us-bg-con{
+        height: 160vh;
+    }
     .magic-with-us-des-con{
         min-height: 20vh;
     }

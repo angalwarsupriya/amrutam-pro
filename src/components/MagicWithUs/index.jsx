@@ -4,7 +4,7 @@ import React from 'react'
 
 function MagicWithUs() {
   return (
-    <div className='magic-with-us-bg-con d-flex flex-column align-items-center'>
+    <section id='magicWithUs' className='magic-with-us-bg-con d-flex flex-column align-items-center'>
 
       <div className='magic-with-us-des-con d-flex flex-column align-items-center'>
         <h2 className='magic-with-us-hea'>Discover Ayurveda’s magic with us </h2>
@@ -157,7 +157,7 @@ function MagicWithUs() {
 
         </div>
 
-    </div>
+    </section>
   )
 }
 

@@ -1,37 +1,74 @@
 .home-bg-con{
     height: 90vh;
     width: 100%;
-    background-image: url('https://res.cloudinary.com/dfb0groak/image/upload/v1732438826/vecteezy_old-books-on-a-wooden-table-book-stack-in-the-library-room_5930374_tmznzw.jpg');
-    background-size: cover;
     margin: 0px;
     margin-top: 0px;
     font-weight:100;
     font-size: 25px;
     color: #f1efef;
-    padding: 4%;
+    position: relative;
+}
+.home-top-layer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(to right, rgb(68, 26, 26),transparent);
+}
+.home-left-con{
+height: 100%;
+width: 45%;
+background-image:linear-gradient(to right, rgb(46, 28, 28),rgb(165, 16, 16))
+}
+.home-img-con{
+    height: 100%;
+    width: 55%;
+    background-image: url('images/Rectangle 3464760.png');
+    background-size: cover;
 }
 
+@media screen and (max-width:768px){
+    .home-bg-con{
+        background-image: url('images/Rectangle 3464762.png');
+        background-size: cover;
+    }
+    .home-img-con{
+        display: none;
+    }
+    .home-left-con{
+        display: none;
+    }
+    .home-top-layer{
+        background-image:linear-gradient(rgb(105, 6, 6),transparent);
+    }
+}
 .home-text-con{
     width: 60%;
+    padding: 5%;
+
 }
 
 .namasthe-hea{
-    font-family: Nexa Light;
+    color: #e4e2e2;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
 }
 .home-title{
     font-size: 50px;
     color: #ffffff;
-    font-family: DINpro-Bold;
-    margin-bottom: 20px;
-    
+    font-family: DINpro;
+    margin-bottom: 30px;
+    letter-spacing: 2px; 
 }
 .home-p{
     font-family: DINpro;
     font-size: 20px;
     margin-bottom: 40px;
+    color: rgb(219, 218, 217);
+    letter-spacing: 2px;
 }
 .home-btn{
-    height: 40px;
+    height: 45px;
     border-radius: 10px;
     color: #fff;
     background-color: #3A643B;
@@ -62,14 +99,16 @@
     
 }
 
-@media screen and (max-width:380px){
+@media screen and (max-width:568px){
     .namasthe-hea{
-        font-size: 17px;
+        font-size: 15px;
+  margin-bottom: 5px;
+
     }
     .home-title{
-        font-size: 30px;       
+        font-size: 27px;      
     }
     .home-p{
-        font-size: 15px;
+        font-size: 17px;
     }
 }

@@ -4,7 +4,7 @@ import React from 'react'
 
 function Features() {
   return (
-    <div className='features-bg-con d-flex'>
+    <section id='features' className='features-bg-con d-flex'>
         <div className='feature-con d-flex align-items-center'>
             <img className='feature-img' alt='feature img' src='images/Frame 427319082.png'/>
             <p className='feature-p'>convenient online & 
@@ -23,7 +23,7 @@ function Features() {
             <p className='feature-p'>personalized Treatment 
             Plans & Guidance</p>
         </div>
-    </div>
+    </section>
   )
 }
 

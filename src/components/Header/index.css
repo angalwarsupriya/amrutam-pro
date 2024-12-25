@@ -1,6 +1,35 @@
 .header-bg-con{
     height: 10vh;
     width: 100%;
-    background-color: red;
     margin-bottom: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.header-con-sm{
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.header-con-lg{
+    height: 10vh;
+    width: 100vw;
+}
+.logo-lg{
+    height: 35px;
+    width: 200px;
+    margin-top: 25px;
+}
+.logo-sm{
+    height: 30px;
+    width: 120px;  
+}
+.menu{
+    font-size: 30px;
+}
+@media screen and (max-width:768px){
+
+}
+ 
+@media screen and (min-width:768px){
+ 
 }
